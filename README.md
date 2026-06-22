@@ -21,5 +21,6 @@ Estructura general del proyecto:
 📁 src/
 ├── app/         # Clase principal con el método main
 ├── model/       # Clases de dominio (Persona, Empleado, Direccion)
+├── service/     # Clase de creacion de arreglo y gestion de objetos como en este caso Empleados(GestorEmpleados)   
 
 
