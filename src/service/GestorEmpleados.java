@@ -35,11 +35,11 @@ public class GestorEmpleados {
                     listaEmpleados.add(emp);
                 }
             }
-            System.out.println("✅ Datos cargados exitosamente desde " + rutaArchivo);
+            System.out.println("Datos cargados exitosamente desde " + rutaArchivo);
         } catch (IOException e) {
-            System.err.println("❌ Error al leer el archivo: " + e.getMessage());
+            System.err.println("Error al leer el archivo: " + e.getMessage());
         } catch (NumberFormatException e) {
-            System.err.println("❌ Error en el formato numérico del archivo: " + e.getMessage());
+            System.err.println("Error en el formato numérico del archivo: " + e.getMessage());
         }
     }
 
